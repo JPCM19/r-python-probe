@@ -1,0 +1,12 @@
+{
+  "name": "r-python-probe",
+  "publisher": "local",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./extension.js",
+  "files": ["extension.js"],
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "activationEvents": ["onStartupFinished", "onLanguage:r", "onLanguage:quarto"]
+}
